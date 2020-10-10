@@ -1,0 +1,51 @@
+#logo {
+    font-family: Georgia, Times, "Times New Roman", serif;
+  
+    /* Typography */
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+  
+    /* Visual */
+    background: #4aaaa5;
+  }
+#Title  {
+    font-family: Georgia, Times, "Times New Roman", serif;
+  
+    /* Typography */
+    font-size: 42px;
+    font-weight: bold;
+    color: #4aaaa5;
+}
+
+#submit {
+    font-family: Georgia, Times, "Times New Roman", serif;
+  
+    /* Typography */
+    font-size: 10px;
+    padding: 20px;
+    color: #fff;
+    border: none;
+    /* Visual */
+    background: #4aaaa5;
+  }
+
+  .footer-margin {
+    height: 100px;
+  }
+
+  html, body {
+    height: 100%;
+    margin: 0;
+  }
+  .wrapper {
+    min-height: 100%;
+  
+    /* Equal to height of footer */
+    /* But also accounting for potential margin-bottom of last child */
+    margin-bottom: -50px;
+  }
+  .footer,
+  .push {
+    height: 50px;
+  }
