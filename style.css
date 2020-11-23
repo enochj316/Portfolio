@@ -37,7 +37,6 @@ body {
   height: 100vh; /*height to 100% of view height*/
   background: #00080a; /*background color to blue*/
   margin-bottom: 0; /*no bottom margin*/
-
   display: flex;
   flex-direction: column;
 }
@@ -167,8 +166,8 @@ h2 {
   display: block;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
-  height: 50vh;
-  width: 45vw;
+  height: 40vh;
+  width: 35vw;
 }
 
 .project-content {
